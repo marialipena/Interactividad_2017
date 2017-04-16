@@ -1,0 +1,401 @@
+body {  
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+#logo{
+  display: block;
+  margin-bottom: 1.5%;
+  width: 10%;
+}
+
+#menu {
+    list-style-type: none;
+    overflow: hidden;
+    border-bottom: 15px solid  #79010f;
+}
+
+#menu li a {
+  color: #79010f;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-left: 6%;
+  margin-right: 4%;
+  padding: 1%;  
+}
+
+#menu li a:hover{
+  color: #000;
+}
+
+#banner {
+  -webkit-filter: grayscale(100%)  contrast(90%) brightness(100%);
+  filter: grayscale(100%) contrast(90%) brightness(100%); 
+  transition:all .25s ease;
+}
+
+#banner:hover {
+  filter: none;
+}
+
+/******************************************* ASIDE **************************************************/
+
+aside {
+  max-width:45%;
+  float: right;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+#foll2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  background-color: #79010f;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;	
+}
+
+#follow1 { 
+  list-style:none;
+}
+
+#follow1 li a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 5%;
+  font-weight: 700;
+  color: #79010f;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+}
+
+#follow1 li a:hover{
+  background-color: white;
+  color: black;
+}
+
+.follow1{
+  text-decoration:none;
+  color: white;
+}
+
+/******************************************* ASIDE **************************************************/
+
+
+/******************************************* ARTICLES **************************************************/
+
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  background-color: #79010f;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+}
+
+h2{
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 25px;
+}
+
+section {
+  max-width:55%;
+  float:left;
+  padding:0;
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 5%;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+section article p{
+  line-height: 40px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+  margin-top: 60px;
+  margin-bottom: 45px;
+  background-color: #79010f;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 20px;
+
+}
+
+button:hover{
+  background-color: #c1c1c1;
+
+}
+/******************************************* ARTICLES **************************************************/
+
+/******************************************* UNIVERSE **************************************************/
+
+#img2 {
+  margin: 5%;
+  margin-left: 3%;
+  margin-right: 4%;
+  float: left;
+  -webkit-filter: grayscale(100%)  contrast(90%) brightness(100%);
+  filter: grayscale(100%) contrast(90%) brightness(100%); 
+  transition:all .25s ease;
+}
+
+ #img2:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+
+
+#p03{
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 5%;
+  line-height: 2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: #444444;
+  text-align: justify;
+}
+
+/******************************************* MODALS **************************************************/
+
+#m1{
+  margin-left: 3%;
+  margin-right: auto;
+  margin-top: 3%;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%)  contrast(90%) brightness(100%);
+  filter: grayscale(100%) contrast(90%) brightness(100%); 
+  transition:all .25s ease;
+}
+
+#m1:hover {
+  filter: none;
+  transform: scale(1.2);
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+     /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+.modal-content{
+
+  border-style: none;
+  border-radius: 0 0 0 0;
+
+}
+
+span{
+  color: #000;
+}
+
+h3{
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+#p01{
+  margin-left: 5%;	
+  margin-right: 5%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
+#p02{
+  margin-left: 5%;	
+  margin-right: 5%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#i1{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/******************************************* MODALS **************************************************/
+
+/******************************************* POSTERS **************************************************/
+
+#m2{
+  margin-left: 3%;
+  margin-right: auto;
+  margin-top: 3%;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%)  contrast(90%) brightness(100%);
+  filter: grayscale(100%) contrast(90%) brightness(100%); 
+  transition:all .25s ease;
+}
+
+#m2:hover {
+  filter: none;
+  transform: scale(1.1);
+
+}
+
+
+/******************************************* POSTERS **************************************************/
+
+/******************************************* PREDICTIONS **************************************************/
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+#avengers{
+  margin-top: 3%;
+  margin-left: 40%;
+}
+
+h6{
+  font-size: 2em;
+  text-align: center;
+  color: #79010f;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#pre01{
+  width: 450px;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input[type='text'] {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100%;
+  font-size: 1.25em;
+  background-color: #fff;
+  border: 0 0 0 5px solid  #79010f;
+  padding:2%;
+  color: #79010f;
+}
+
+#todo{
+  color: #79010f;
+}
+
+input[type='text']:focus {
+  outline: none;
+
+}
+
+input[type='button'] {
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: block;
+  background-color: #79010f;
+  color: #fff;
+  font-size: 1.25em;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  padding: 0.5em;
+  width: 50%;
+  margin: 1em auto;
+}
+
+input[type='button']:hover {
+  background-color: #c1c1c1;
+}
+
+#todo-list div {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.25em;
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 10%;
+  float: left;
+  border: 1px solid  #79010f;
+}
+
+/******************************************* PREDICTIONS **************************************************/
+
+
+/******************************************* FOOTER **************************************************/
+
+footer {
+  clear: both;
+  background-color: #79010f;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5%;
+}
+
+/******************************************* FOOTER **************************************************/

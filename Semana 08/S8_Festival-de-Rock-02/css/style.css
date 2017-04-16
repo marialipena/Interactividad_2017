@@ -1,0 +1,286 @@
+body {
+	max-width: 1280px;
+    background-image: url(../images/menu/FDR_Background.png);
+    background-color: #fff;
+}
+
+/* COVER PAGE */
+
+#coverpage {
+	margin-left: 35%;
+	margin-top: 15%;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+#cover {
+	margin: 0 auto;
+}
+
+#enter {
+	margin: 0 auto;
+}
+
+#enter:hover {
+    -webkit-filter: grayscale(100%)  contrast(100%) brightness(10%);
+    filter: grayscale(100%) contrast(100%) brightness(10%); 
+}
+
+/* INICIO */
+
+#img1 {
+	float: left;
+	margin-left: 5%;
+ 
+}
+
+#menu {
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 6%;
+}
+
+#menu li a {
+	float: left;
+    margin: 1%;
+    padding: 1%;  
+}
+
+#menu li a:hover {
+    -webkit-filter: grayscale(100%)  contrast(100%) brightness(10%);
+    filter: grayscale(100%) contrast(100%) brightness(10%); 
+}
+
+#img2 {
+	float: right;
+	margin-right: 18%;
+	margin-bottom: 4%;
+}
+
+#img3 {
+    position: absolute;
+    left: 72%;
+    top: 82%;
+    z-index: 1;
+}
+
+#cell01{
+	display: none;
+}
+
+#img3:hover {
+    -webkit-filter: grayscale(100%)  contrast(100%) brightness(10%);
+    filter: grayscale(100%) contrast(100%) brightness(10%); 
+}
+
+/* TICKETS */
+
+#sorry{
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+#img4 {
+	margin: 0 auto;
+}
+
+#img5 {
+	margin-left: 25%;
+	margin-bottom: 2%;
+}
+
+#img5:hover {
+    -webkit-filter: grayscale(100%)  contrast(100%) brightness(10%);
+    filter: grayscale(100%) contrast(100%) brightness(10%); 
+}
+
+/* ARTISTAS */
+
+#img6 {	
+	float: right;
+    margin-top: 8%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+#img7{
+	position: absolute;
+	left: 55%;
+	top: 40%;
+	z-index: -1;
+}
+
+#img8{
+	position: absolute;
+	left: 70%;
+	top: 75%;
+	z-index: -1;
+}
+
+#img9{
+	position: absolute;
+	left: 15%;
+	top: 50%;
+	z-index: -1;
+}
+
+/* CONTACTO */
+
+#img10 {	
+	float: left;
+	margin-left: 20%;
+	margin-bottom: 2%;
+
+}
+
+#img11 {	
+	float: right;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+
+p {
+    width: 30%;
+    font-family: 'Anton';
+    float: right;
+    margin-right: 18%;
+    margin-bottom: 2%;
+}
+
+footer{
+	margin-left: 6%;
+}
+
+
+/* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+
+@media screen and (max-width:800px) {
+
+body {
+	max-width: 1280px;
+    background-image: url(../images/menu/FDR_Background_02.png);
+    background-color: #fff;
+}
+
+#img1 {
+	float: left;
+	margin-left: 35%;
+}
+
+#menu {
+	float:left;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 8%;
+}
+
+#menu li a {
+    margin: 1%;
+    padding-left: 15%;  
+}
+
+/* COVER PAGE */
+
+#coverpage {
+	margin-left: 0;
+	margin-top: 35%;
+}
+
+#cover {
+	margin: 0 auto;
+}
+
+#enter {
+	margin: 0 auto;
+}
+
+#enter:hover {
+    -webkit-filter: grayscale(100%)  contrast(100%) brightness(10%);
+    filter: grayscale(100%) contrast(100%) brightness(10%); 
+}
+
+/* COVER PAGE */
+
+/* INICIO */
+
+#img2 {
+	display: none;
+}
+
+#img3 {
+	display: none;
+}
+
+#cell01{
+	display: inline-block;
+}
+
+/* INICIO */
+
+/* ARTISTAS */
+
+#img6{
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#art01{
+	margin-right: 50%;
+}
+
+#img7, #img8, #img9{
+	display: none;
+}
+
+/* ARTISTAS */
+
+/* CONTACTO */
+
+#img10 {	
+	float: right;
+	margin-right: 9%;
+	margin-left: 9%;
+}
+
+#img11 {	
+	float: right;
+	margin-right: 9%;
+	margin-left: 9%;
+    margin-top: 5%;
+}
+
+p {
+    width: 80%;
+    font-family: 'Anton';
+    float: left;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 9%;
+}
+
+/* CONTACTO */
+
+/* TICKETS */
+
+#sorry{
+	margin-left: 5%;
+	margin-top: 45%;
+}
+
+#img4 {
+	margin: 0 auto;
+}
+
+#img5 {
+	margin-left: 21%;
+	margin-top: 7%;
+	margin-bottom: 10%;
+}
+
+/* TICKETS */

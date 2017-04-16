@@ -1,0 +1,87 @@
+body {  
+  	max-width: 1200px;
+  	margin: 0 auto;
+}
+
+/* *********************************** BEGIN HEADER *********************************** */
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: #E6DED1;
+	margin-top: 4%;
+}
+
+/* *********************************** END HEADER *********************************** */
+
+
+/* *********************************** BEGIN INTRODUCTION *********************************** */
+
+#img1 {
+	max-width: 20%;
+	margin: 0 auto;
+	padding: 5% 0% 0% 15%;
+}
+
+h6 {
+	font-family: 'Raleway';
+	font-size: 14px;
+	color: #897F6E;
+	text-align: justify;
+	max-width: 40%; 
+	float: right;
+	line-height: 20px;
+	margin: 0 auto;
+	padding: 8% 20% 0% 0%;
+}
+
+/* *********************************** END INTRODUCTION *********************************** */
+
+/* *********************************** BEGIN TREASURES :) *********************************** */
+
+div.wrapper{
+	float:left;
+	position:relative; 
+	margin-top: 5%;
+  	margin-bottom: 10%;
+	margin-left: 6%;
+	margin-right: 0;
+}
+
+div.description{
+	position: absolute;
+	bottom: 15px; 
+	left: 50px;
+	width: 200px;
+	color: #897F6E;	
+	background-color:white;
+	opacity:0.8;
+}
+
+p.description_content{
+	padding: 5px;
+	margin right: 2px;
+	font-family: 'Raleway';
+	font-size: 12px;
+	line-height: 25px;
+}
+
+
+/* *********************************** END TREASURES :) *********************************** */
+
+/* *********************************** BEGIN FOOTER *********************************** */
+
+footer {
+	width: 1200px;
+  	clear: both;
+  	background-color: #E6DED1;
+  	font-family: 'Raleway';
+  	color: white;
+  	font-size: 12px;
+  	text-align: center;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+}
+
+/* *********************************** END FOOTER ***********************************  */

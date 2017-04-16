@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    width: 80%;
+    background-color: #000;
+    color: white;
+}
+
+html {
+    display: table;
+    margin: auto;
+    color: white;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    font-style: italic;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+h4{
+	
+	font-size: 16pt;
+	font-weight: normal;
+	font-weight: normal;
+	font-style: normal;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+h5{
+	font-size: 28pt;
+	font-weight: normal;
+	font-style: normal;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+
+}

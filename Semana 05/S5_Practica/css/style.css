@@ -1,0 +1,16 @@
+.jumbotron {	
+	background: url(../imgs/1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	color: #000;
+	font-size: 50px;
+	margin-top: 90px;
+	margin-right: 150px;
+}

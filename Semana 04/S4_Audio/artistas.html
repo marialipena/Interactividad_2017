@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	<title>Sonora Music Mag</title> 
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Slab" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="img1">
+<img src="imgs/Sonora_Logo.png" alt="Sonora_Logo" width="130px">
+</header>
+
+<ul id='menu'>
+  <li class='menu'><a href="index.html">Inicio</a></li>
+  <li class='menu'><a href="artistas.html">Artistas</a></li>
+  <li class='menu'><a href="about.html">Quienes Somos</a></li>
+  <li class='menu'><a href="contact.html">Contacto</a></li>
+</ul>
+
+<img id="img5" src="imgs/8.png" alt="Image_01" width="400">
+
+<p id='p2'>Has click en cualquiera de las imagenes y podras escuchar una canción aleatoria del la banda!</p>
+
+<audio id="audio_play_01">
+    <source src="music/The Cat Lady-Lies, lies, lies.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
+<audio id="audio_play_02">
+    <source src="music/The Cat Lady- I Do.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
+<audio id="audio_play_03">
+    <source src="music/The Cat Lady-Lies, lies, lies.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
+<div id='div1'>
+<img id="img6" src="imgs/6.png" alt="Image_The-Cat-Lady_01" width="150px" onClick="document.getElementById('audio_play_01').play(); return false;" /> 
+<img id="img6" src="imgs/5.png" alt="Image_The-Cat-Lady_02" width="150px" onClick="document.getElementById('audio_play_02').play(); return false;" />
+<img id="img6" src="imgs/7.png" alt="Image_The-Cat-Lady_03" width="150px" onClick="document.getElementById('audio_play_03').play(); return false;" />
+<img id="img7" src="imgs/play_button.png" width="50px" onClick="document.getElementById('audio_play_01').pause(); return false;" />
+<img id="img7" src="imgs/play_button.png" width="50px" onClick="document.getElementById('audio_play_02').pause(); return false;" />
+<img id="img7" src="imgs/play_button.png" width="50px" onClick="document.getElementById('audio_play_03').pause(); return false;" />
+</div>
+
+
+<footer>Site design & development by Maria Alica Peña 2016</footer>
+
+</body>
+</html>

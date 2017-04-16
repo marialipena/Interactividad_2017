@@ -1,0 +1,265 @@
+	html, body {
+		height: 100%;
+		max-width: 1200px;
+	}
+	
+	body {
+		/*margin: 0px;
+		padding: 0px;
+		background: #031f4f;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;*/ 
+	}
+	
+	
+	h1, h2, h3 {
+		margin: 0;
+		padding: 0;
+		color: #404040;
+		
+	}
+	
+	p, ol, ul {
+		margin-top: 0;
+		text-align: center;
+		border: 1px solid green;
+
+	}
+	
+	ol, ul {
+		padding: 0;
+		list-style: none;
+	}
+	
+	p {
+		line-height: 180%;
+	}
+	
+	a {
+		color: #004571;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+
+	.container {
+		margin: 0 auto;
+		width: 1200px; /* este codigo centraliza a todos los contenedores con esta clase en el centro con el tamaño 1200px de ancho */
+	}
+	
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button {
+
+	}
+	
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title {
+		margin: 0 auto;
+
+	}
+	
+	.title h2 {
+
+	}
+	
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper {
+		border: 1px solid red;
+		text-align: center;
+		margin: 0 auto;
+		padding: 15px;
+		width: 900px;
+	}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+	
+	#logo h1 {
+		border: 1px solid red;
+		width: 900px;
+		margin: 0 auto;
+
+	}
+	
+	#logo a {
+
+	}
+	
+	#logo span {
+
+	}
+
+	#logo span a {
+
+	}
+	
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	
+	#menu ul {
+		margin: 0 auto;
+		width: 900px;
+
+	}
+	
+	#menu li {
+		display: inline-block;
+
+	}
+	
+	#menu li a, #menu li span {
+
+	}
+	
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page-wrapper {
+		border: 1px solid blue;
+		text-align: center;
+
+	}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper {
+		border: 1px solid green;
+
+	}
+
+
+/*********************************************************************************/
+/* Three Columns                                                                 */
+/*********************************************************************************/
+
+	#three-column {
+		border: 1px solid green;
+		margin: 0 auto;
+		padding: 20px;
+		width: 900px;
+	}
+	
+	#three-column h2 {
+		text-align: center;
+
+
+	}
+		
+	#three-column #tbox1, #three-column #tbox2, #three-column #tbox3 {
+		width: 300px;
+		float: left;
+
+	}
+	
+	#three-column .title {
+
+	}
+	
+	#three-column .title h2 {
+
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+	
+	#portfolio .box {
+		clear: both;
+		width: 285px;
+		margin: auto;
+
+
+	}
+	
+	#portfolio h3 {
+
+	}
+
+	#portfolio .title {
+
+	}
+
+ 	#portfolio .title h2 {
+
+	}
+
+	.column1, .column2, .column3, .column4 {
+		width: 200px;
+		float: left;
+		margin: 45px;
+	}
+	
+	.column1, .column2, .column3 {
+
+
+	}
+	
+	.column4 {
+
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright {
+		border: 1px solid purple;
+		clear: both;
+		margin: auto;
+		padding: 20px;
+		width: 900px;
+
+
+	}
+	
+	#copyright p {
+
+
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact li {
+
+	}
+	
+	ul.contact li span {
+
+	}
+	
+	ul.contact li a {
+
+	}
+	
+	ul.contact li a:before {
+
+	}	

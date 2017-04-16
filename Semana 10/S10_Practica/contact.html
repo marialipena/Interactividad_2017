@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>Sonora Music Mag</title> 
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS-->
+
+     <style type="text/css">
+     		
+     		#myform{
+     			margin-left: 80px;
+     			margin-top: 80px;
+     			margin-bottom: 80px;
+     		}
+
+     		#F01{
+     			font-family: 'Anton';
+     			font-size: 18px;
+          color: #444444;
+     		}
+
+     		#F02{
+     			font-family: 'Open Sans Condensed';
+     			font-size: 18px;
+          color: #444444;
+     		}
+
+	     	#myform label.error {
+			  	color: red;
+			  	font-size: 11px;
+     			font-family: 'Open Sans Condensed';
+			  	text-transform: lowercase;
+			  	position: relative;
+			}
+
+			textarea{
+				  width: 35%;
+    			padding: 8px 18px;
+    			margin: 8px 0;
+    			box-sizing: border-box;
+    			border: none;
+    			background-color: #fecc44;
+    			color: #444444;
+			}
+
+			input[type=text] {
+    			width: 35%;
+    			padding: 8px 18px;
+    			margin: 8px 0;
+    			box-sizing: border-box;
+    			border: none;
+    			background-color: #fecc44;
+    			color: #444444;
+			}
+
+      button{
+          width: 15%;
+          padding: 8px 8px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: none;
+          background-color: #444444;
+          color: #fff;
+          font-family: 'Anton';
+          font-size: 25px;
+      }
+
+      #img10{
+          position: absolute;  
+          left: 55%;
+          top: 55%;
+          margin-right:   8px 0; 
+      }
+
+     </style>
+
+<!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS--> <!--CSS-->
+
+<!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML-->
+
+</head>
+<body>
+
+
+<header id="img1">
+<img src="imgs/Sonora_Logo.png" alt="Sonora_Logo" width="130px">
+</header>
+
+<ul id='menu'>
+  <li class='menu'><a href="index.html">Inicio</a></li>
+  <li class='menu'><a href="artistas.html">Artistas</a></li>
+  <li class='menu'><a href="about.html">Quienes Somos</a></li>
+  <li class='menu'><a href="contact.html">Contacto</a></li>
+</ul>
+
+	<form id="myform">
+
+		<label id="F01">Nombre</label>
+		<br>
+		<input id="F02" name="name" type="text" placeholder="Nombre Completo">
+		
+		<br>
+
+		<label id="F01">E-mail</label>
+		<br>
+		<input id="F02" name="email" type="text" placeholder="ejemplo@ejemplo.com">
+
+		<br>
+
+		<label id="F01">Tel&eacute;fono</label>
+		<br>
+		<input id="F02" name="phone" type="text" id="phone_number" placeholder="000-000-0000">
+
+		<br>
+
+		<label id="F01">Mensaje</label>
+		<br>
+		<textarea id="F02" name="message" id="" cols="30" rows="10" placeholder="..."></textarea>
+
+		<br>
+
+		<button form="myform" type="submit" class="send">ENVIAR</button>
+
+	</form>
+
+  <img id="img10" src="imgs/10.png" width="400px">
+
+  <footer>Site design & development by Maria Alica Peña 2016</footer>
+
+
+<!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML--> <!--HTML-->
+
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+<script>
+$().ready(function() {
+  
+  $("#myform").validate({
+    rules: {
+      name: "required",
+      name2: "required",
+      message: "required",
+      id: "required",
+      phone: "required",
+      activity: {
+      	required: true
+      },
+      email: {
+      required: true,
+      email: true
+      },
+    },
+    messages: {
+      name: "<br />Hola esto es una prueba",
+      name2: "Por favor introduzca su nombre y apellido",
+      id: "<br />Por favor introduzca su n&uacute;mero de c&eacute;dula o pasaporte",
+      phone: "Por favor introduzca su n&uacute;mero de tel&eacute;fono",
+      message: "Este campo es obligatorio",
+      activity: {
+        required: "Por favor selecciona una actividad"
+      },
+      email: {
+        required: "Por favor introduzca su e-mail",
+        email: "Por favor introduzca un e-mail válido"
+      },
+    }
+  });
+});
+
+jQuery(function($){
+   $("#phone_number").mask("(999) 999-9999");
+});
+</script>
+
+</body>
+</html>

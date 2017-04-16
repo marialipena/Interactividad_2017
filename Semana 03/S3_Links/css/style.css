@@ -1,0 +1,79 @@
+body {  
+    max-width: 1200px;
+    margin: 0 auto;
+    background-size: 20px 20px;
+}
+
+/* *********************************** BEGIN HEADER *********************************** */
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin-top: 4%;
+}
+
+/* *********************************** END HEADER *********************************** */
+
+
+/* *********************************** BEGIN INTRODUCTION *********************************** */
+
+h6 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* *********************************** END INTRODUCTION *********************************** */
+
+
+/* *********************************** BEGIN BUTTONS *********************************** */
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.button {
+    background-color: black;
+    border: none;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    float:left;
+    position:relative; 
+    margin-bottom: 8%;
+    margin-left: 10%;
+    margin-right: 6%;
+}
+
+#img4{
+    float: left; 
+    margin-bottom: 5%;
+    margin-left: 6%;
+    margin-right: 0;
+}
+
+/* *********************************** END BUTTONS *********************************** */
+
+/* *********************************** BEGIN FOOTER *********************************** */
+
+footer {
+    width: 1200px;
+    clear: both;
+    background-color: black;
+    font-family: 'Raleway';
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* *********************************** END FOOTER ***********************************  */

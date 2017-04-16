@@ -1,0 +1,148 @@
+body {  
+  max-width: 1000px;
+  margin: 0 auto;
+  background-size: 20px 20px;
+}
+
+#img1{
+  margin: 0 auto;
+	margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+#menu {
+  list-style-type: none;
+  overflow: hidden;
+  border-bottom: 5px solid  #ffcc00;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#menu li a {
+	color: #444444;
+	font-family: 'Anton', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+	display: inline-block;
+  float: left;
+  margin-left: 8%;
+  margin-right: 6%;
+  padding: 1%;  
+}
+
+#menu li a:hover{
+	color: #ffcc00;
+}
+
+#img2 {
+  margin-left: 20%;
+  margin-top: 6%;
+  margin-bottom: 0%;
+  float: left;
+}
+
+#img3 {
+  margin-top: 8%;
+  margin-left: 14%;
+  float: left;
+}
+
+p{
+  max-width: 50%;
+  float: right;
+  line-height: 2;
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-right: 8%;
+  margin-bottom: 0%;
+  padding: 2%; 
+  padding-bottom: 0%;
+  background-size: 20px 20px;
+  font-family: "Archer";
+  font-size: 14px;
+  font-weight: 100;
+  color: #444444;
+  text-align: justify;
+}
+
+#div2{
+  float: left;
+  max-width: 60%;
+}
+
+#p1 { 
+    float: left;
+  max-width: 60%;
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-right: 0%;
+}
+
+audio{
+  margin-left: 12%;
+  margin-top: 10%;
+  margin-right: 0%;
+
+}
+
+ #img4 {
+  max-width: 60%;
+  margin-right: 20%;
+  margin-top: 6%;
+  margin-bottom: 5%;
+  float: right;
+}
+
+#img5 {
+  padding: 5%;
+  margin:0 auto;
+  margin-left: 22%;
+
+}
+
+#p2 { 
+  float: left;
+  max-width: 80%;
+  margin-left: 16%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+#img6 {
+  max-width: 90%;
+  margin: 2%;
+  margin-left: 9%;
+  margin-right: auto;
+}
+
+#img7 {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-left: 19%;
+ 
+}
+
+#img6:hover{
+    -webkit-filter: grayscale(100%)  contrast(100%) brightness(100%);
+    filter: grayscale(100%) contrast(100%) brightness(100%); 
+}
+
+#div1 {
+  margin: 10%;
+  margin-top: 3%;
+}
+
+footer {
+  clear: both;
+  background-color: #ffcc00;
+  font-family: 'Archer';
+  color: #444444;
+  text-align: center;
+  padding: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
