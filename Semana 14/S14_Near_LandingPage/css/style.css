@@ -1,0 +1,269 @@
+body {
+  max-width: 1280px;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 0 auto;
+}
+
+/* ******************************NAV BAR****************************** */
+
+
+.fixed{
+  width: 1280px;
+  margin: 0 auto;
+  position: fixed;
+  background-color: #ef225d;
+  box-shadow: 0 1px 25px rgba(0,0,0,.5);
+}
+
+.logo-box {
+  padding: 10px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.logo-box {
+  outline: none;
+  display: block;
+}
+
+.logo-box img {display: block;}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li a {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-right: 5px solid #d60556; 
+  background-color: #ef225d;
+  display: inline-block;
+  box-shadow: 0 1px 5px rgba(0,0,0,.2);  
+}
+
+nav li {
+  float: left;
+}
+
+nav {
+  margin-left: 150px;
+  margin-top: 55px;
+}
+
+
+#menu li a:hover{
+  color: #fff;
+  background-color: #ff3366;
+}
+
+/* ******************************NAV BAR****************************** */
+
+/* ****************************SEARCH BAR***************************** */
+
+form {
+    float: right;
+}
+
+.search-bar input#search-bar{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  width: 200px;
+  height: 36px;
+  background: #fff;
+  border: 2px solid #ef225d;
+  padding-left: 10px;
+  float: left;
+  margin-right: 100px;
+  color: #ef225d;
+  box-shadow: 0 1px 5px rgba(0,0,0,.2); 
+}
+
+.search-bar input#search-bar::-webkit-input-placeholder {
+   color: #c5c5c5;
+}
+
+/* ****************************SEARCH BAR***************************** */
+
+/* ****************************HOME****************************** */
+
+#home {
+  height: 50em;
+  color: #fff;
+}
+
+.slideshow{
+    position: absolute;
+    z-index: -1;
+    margin-top: 110px;
+}
+
+.slideshow figure{
+    position: absolute;
+    background-color: #fff;
+}
+
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ****************************HOME****************************** */
+
+/* ****************************ABOUT****************************** */
+
+#about {
+  height: 30em;
+  background-color: #500554;
+}
+
+#app_01{
+  margin-left: 240px;
+  margin-top: 120px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.4);  
+}
+
+h2{
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+h5{
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#info{
+  width: 500px;
+  float: right;
+  margin-right: 250px;
+  margin-top: 80px;
+}
+
+/* ****************************ABOUT****************************** */
+
+/* ****************************GALLERY****************************** */
+
+#gallery {
+  height: 50em;
+  padding-left:9em;
+  padding-right:9em;
+  padding-top: 3em;
+  background-color: #fff;
+  color: #fff;
+}
+
+#iphones{
+  margin-top: 35px;
+}
+
+#near_02{
+  margin-left: 29em;
+}
+
+h6{
+  text-align: center;
+  color: #ef225d;
+  padding-top: 1em;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* ****************************GALLERY****************************** */
+
+/* ****************************DOWNLOAD****************************** */
+
+
+#download {
+  height: 35em;
+  background-color: #ef225d;
+  color: #fff;
+}
+
+h3{  
+  float: right;
+  margin-right: 3em;
+  margin-top: 4em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #500554;
+}
+
+#near_03{
+  float: right;
+  margin-right: 9em;
+  margin-top: 5em;
+}
+
+#near_04{
+  margin-left: 4em;
+  margin-top: 3.2em;
+}
+
+/* ****************************DOWNLOAD****************************** */
+
+#footer {
+  height: 10em;
+  background-color: grey;
+  color: #fff;
+}
